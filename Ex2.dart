@@ -5,8 +5,6 @@ class Dog {
     print("Woofff. My name is ${name}");
   }
 }
-
-
 main(){
   Dog dog = new Dog();
   stdout.write("Enter Dog's name : ");
