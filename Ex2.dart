@@ -7,7 +7,6 @@ class Dog {
   }
 }
 
-
 main() {
   Dog dog = new Dog();
   stdout.write("Enter Dog's name : ");
