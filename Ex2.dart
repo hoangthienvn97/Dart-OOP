@@ -1,5 +1,4 @@
 import 'dart:io';
-
 class Dog {
   String name;
   void say() {
@@ -7,8 +6,8 @@ class Dog {
   }
 }
 
+main(){
 
-main() {
   Dog dog = new Dog();
   stdout.write("Enter Dog's name : ");
   dog.name = stdin.readLineSync();
