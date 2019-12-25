@@ -1,0 +1,6 @@
+name: 'asdasdsa'
+dependencies:
+  faker:
+    git:
+      ref: master
+      url: 'https://github.com/drager/faker.git'
