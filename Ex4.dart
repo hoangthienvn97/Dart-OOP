@@ -4,7 +4,6 @@ import 'dart:math';
 import 'package:faker/faker.dart';
 
 abstract class Animal {
-
   String name;
   void say() {
     print("Grr.....");
@@ -47,7 +46,7 @@ class Dog extends Animal {
 
   @override
   String getClass() {
-    return "Dog";    
+    return "Dog";
   }
 }
 
@@ -82,11 +81,6 @@ main() {
   list.sort(comparator);
 
   for (var item in list) {
-    if (item is Cat) {
-      print("CAT");
-    } else if (item is Dog) {
-      print("DOG");
-    }
-    item.say(); 
+    item.say();
   }
 }
